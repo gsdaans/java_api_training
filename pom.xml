@@ -17,7 +17,6 @@
         <assertj.version>3.21.0</assertj.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
-        <project.build.testSourceDirectory>src/test/java/fr/lernejo/navy_battle</project.build.testSourceDirectory>
     </properties>
 
     <dependencies>
