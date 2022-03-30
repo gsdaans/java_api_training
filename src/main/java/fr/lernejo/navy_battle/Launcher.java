@@ -7,8 +7,8 @@ public class Launcher {
         if (args.length < 1) {
             throw new IllegalArgumentException("Please specify a port number");
         }
-        else if (args.length == 1) {
-            Server server = new Server(Integer.parseInt(args[0]));
+        else if (args.length > 1) {
+            Server server = new Server(Integer.parseInt(args[0]), args[1]);
             server.createServer();
         }
     }
