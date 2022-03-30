@@ -10,8 +10,9 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class ServerTest {
     private Server server = new Server(9999, "localhost");
 
-    @BeforeEach
+    @Test
     public void setUp() throws Exception {
+        Server server = new Server(9999, "localhost");
         server.createServer();
     }
 
